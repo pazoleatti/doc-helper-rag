@@ -1,0 +1,16 @@
+[project]
+name = "doc-helper-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "certifi>=2026.1.4",
+    "langchain>=1.2.0",
+    "langchain-chroma",
+    "langchain-openai>=1.1.6",
+    "langchain-pinecone>=0.2.13",
+    "langchain-tavily>=0.2.16",
+    "langchain-text-splitters>=1.1.0",
+    "python-dotenv>=1.2.1",
+]
